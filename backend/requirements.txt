@@ -1,0 +1,27 @@
+# =============================================================================
+# Pomodoro Focus App - Python Dependencies
+# =============================================================================
+#
+# This requirements file lists all Python packages needed to run the
+# Pomodoro Focus application's Django backend.
+#
+# Part of Whole App:
+#     These dependencies provide the backend framework, REST API support,
+#     CORS handling, and database connectivity for the application.
+#
+# Installation:
+#     pip install -r requirements.txt
+#
+# Architecture:
+#     - Django: Core web framework
+#     - DRF: REST API framework for building the API
+#     - django-cors-headers: CORS support for frontend communication
+#     - gunicorn: Production WSGI server
+#     - psycopg2: PostgreSQL adapter (for production)
+# =============================================================================
+
+Django>=4.2,<5.0
+djangorestframework>=3.14,<4.0
+django-cors-headers>=4.0,<5.0
+gunicorn>=21.0,<22.0
+psycopg2-binary>=2.9,<3.0
